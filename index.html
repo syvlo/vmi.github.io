@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<body class="home">
+<!-- Fixed navbar -->
+
+<!-- /Header -->
+
+<!-- Intro -->
+<div class="container">
+
+    <div class="row">
+        <intro class="col-md-8 maincontent ">
+            {% for post in site.posts %}
+            <header class="page-header">
+                <h1 class="page-title" href="{{accueil.url}}">{{post.title}}</h1>
+            </header>
+            <div class="p2">
+                {{post.excerpt}}
+
+                <h3>Objectifs</h3>
+                <p>Un des objectifs du parcours Vision et Machine Intelligente est de préparer certains étudiants à la
+                    poursuite en thèse dans les thématiques du laboratoire LIPADE mais aussi d’offrir, à tous, des
+                    débouchés professionnels dans de nombreux domaines. Le niveau atteint est celui des ingénieurs
+                    concepteur, chef de projets, ingénieurs R&D.</p>
+                <p>Parmi les domaines concernés, notons : la voiture autonome, l’édition électronique, l’audiovisuel,
+                    le management des systèmes d’information multimédia, la conception et la vérification de protocoles
+                    multimédia, le traitement de l’image et de la biométrie. Le domaine de la santé dans lequel
+                    l’imagerie et les capteurs de toute nature se développent rapidement. L’usage de la téléphonie
+                    mobile et du web multiplie les domaines où les applications sont possibles. Le grand nombre
+                    d’appels d'offre de l'ANR dans ce domaine est une preuve du caractère dynamique de ces secteurs
+                    d’activité.</p>
+
+                <h3>Compétences visées</h3>
+                <p>Le parcours Vision et machine intelligente est par essence pluridisciplinaire et les étudiants
+                    acquièrent les aspects fondamentaux de la vision par ordinateur, en intégrant des notions
+                    d’intelligence artificielle pour modéliser des systèmes allant de l’acquisition des données à
+                    l’extraction de connaissances et leur interprétation (ingénierie des connaissances). Les concepts
+                    d’intelligence économique, de veille stratégique au service de la défense de l’entreprise sont
+                    aussi mis particulièrement en avant pour une sensibilisation à la protection du patrimoine
+                    informationnel.</p>
+                <p>De nombreuses entreprises sont directement intéressées par les compétences des étudiants et la
+                    plupart des stages, dont une partie non négligeable à l’international (Chine, Canada, Irlande,
+                    Australie), se traduisent directement par une proposition d’embauche avant la fin de ce dernier
+                    (PME, Altran, Huawei, Thales, Alcatel, Dassault).</p>
+            </div>
+            {% endfor %}
+        </intro>
+
+        <!-- Sidebar -->
+        <aside class="col-md-4 sidebar sidebar-right">
+
+            <div class="row widget">
+                <div class="col-xs-12">
+                    <h4><img src="./assets/images/ETCS.png" height="50px" width="50px" />   ECTS : 120 Crédits</h4>
+                    <h4><img src="./assets/images/Temp.PNG" height="50px" width="50px" />   Durée : 2 ans</h4>
+                    <h4><img src="./assets/images/Lvl.PNG" height="50px" width="50px" />   Niveau d'études visé : BAC +5</h4>
+                    <h4><img src="./assets/images/Globe.PNG" height="50px" width="50px" />   Langue : Français</h4>
+                </div>
+            </div>
+            <div class="row widget">
+                <div class="col-xs-12">
+                    <h4>Lieu d'enseignement</h4>
+                    </br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5250.31410000412!2d2.326171
+						3603414123!3d48.855215547083745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6716d7d0
+						fd943%3A0xd9bdd83ca3691659!2sUniversit%C3%A9%20Paris%20Cit%C3%A9!5e0!3m2!1sfr!2sfr!4v16553111657
+						58!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+        </aside>
+        <!-- /Sidebar -->
+    </div>
+</div>
+<!-- /Intro-->
+
+
+</body>
+</html>
