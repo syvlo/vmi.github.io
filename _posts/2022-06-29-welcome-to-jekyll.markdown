@@ -14,3 +14,7 @@ principaux médias et leur impact dans le domaine de la recherche et l’industr
 reconnus du monde de la recherche et de l’industrie interviennent dans ce parcours (comme Altice,
 l’institut géographique national, l’Institut Pasteur) et intègrent dans leurs enseignements les
 avancées technologiques et numériques les plus récentes.
+
+
+## TUTU
+sdfegrgFsqfeghrtjrgdffert
