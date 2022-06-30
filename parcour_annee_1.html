@@ -3,3 +3,13 @@ layout: default
 title: Parcour année 1
 permalink: /annee1/
 ---
+
+<div class="container">
+
+        <h1>Programme Master 1</h1>
+
+        <div class="list-group">
+            {% for post in site.posts %}
+            <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }}</a>
+            {% endfor %}
+</div>
