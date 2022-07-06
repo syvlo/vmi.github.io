@@ -9,14 +9,16 @@ permalink: /annee1/
         <h1>Programme Master 1</h1>
     <h2>Semestre 1</h2>
 
-        <div class="list-group">
-            {% for post in site.posts %}
-            <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }}</a>
-            {% endfor %}
-        </div>
+    <div class="list-group">
+        {% for cour in site.cours  %}
+        <a href="{{ cour.url }}" class="list-group-item list-group-item-action">{{ cour.title }}</a>
+        {% endfor %}
+    </div>
+
     <h2>Semestre 2</h2>
+
         <div class="list-group">
-            {% for post in site.posts %}
-            <a href="{{ post.url }}" class="list-group-item list-group-item-action">{{ post.title }}</a>
+            {% for cour in site.cours  %}
+            <a href="{{ cour.url }}" class="list-group-item list-group-item-action">{{ cour.title }}</a>
             {% endfor %}
         </div>
