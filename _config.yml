@@ -56,6 +56,18 @@ permalink: /:title/
 
 
 collections:
-  cours:
+  cours1:
+    output: true
+    permalink: /super/:path/
+
+  cours2:
+    output: true
+    permalink: /super/:path/
+
+  cours3:
+    output: true
+    permalink: /super/:path/
+
+  cours4:
     output: true
     permalink: /super/:path/

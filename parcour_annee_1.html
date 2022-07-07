@@ -10,7 +10,7 @@ permalink: /annee1/
     <h2>Semestre 1</h2>
 
     <div class="list-group">
-        {% for cour in site.cours  %}
+        {% for cour in site.cours1  %}
         <a href="{{ cour.url }}" class="list-group-item list-group-item-action">{{ cour.title }}</a>
         {% endfor %}
     </div>
@@ -18,7 +18,7 @@ permalink: /annee1/
     <h2>Semestre 2</h2>
 
         <div class="list-group">
-            {% for cour in site.cours  %}
+            {% for cour in site.cours2  %}
             <a href="{{ cour.url }}" class="list-group-item list-group-item-action">{{ cour.title }}</a>
             {% endfor %}
         </div>
