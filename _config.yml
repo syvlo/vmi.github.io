@@ -71,3 +71,11 @@ collections:
   cours4:
     output: true
     permalink: /super/:path/
+
+  visionetperception:
+    output: true
+    permalink: /super/:path/
+
+  ingenieriedesconnaissances:
+    output: true
+    permalink: /super/:path/

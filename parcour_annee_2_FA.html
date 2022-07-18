@@ -3,3 +3,23 @@ layout: default
 title: Parcour année 2
 permalink: /annee2FA/
 ---
+
+<div class="container">
+
+    <h1>Programme Master 1</h1>
+    <h2>Semestre 1</h2>
+    <h3>Vision et perception</h3>
+
+    <div class="list-group">
+        {% for cour in site.visionetperception  %}
+        <a href="{{ cour.url }}" class="list-group-item list-group-item-action">{{ cour.title }}</a>
+        {% endfor %}
+    </div>
+
+    <h3>Ingenierie des connaissances</h3>
+
+    <div class="list-group">
+        {% for cour in site.ingenieriedesconnaissances  %}
+        <a href="{{ cour.url }}" class="list-group-item list-group-item-action">{{ cour.title }}</a>
+        {% endfor %}
+    </div>
