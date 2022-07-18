@@ -79,3 +79,7 @@ collections:
   ingenieriedesconnaissances:
     output: true
     permalink: /super/:path/
+
+  mobiliteetsecurite:
+    output: true
+    permalink: /super/:path/
