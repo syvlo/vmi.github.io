@@ -1,6 +1,7 @@
 ---
 layout: cour
 title:  "Complexité algorithmique (IFFAX020)"
+parentcategory: 
 ---
 
 # Complexité algorithmique (IFFAX020)
